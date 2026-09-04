@@ -1,1 +1,146 @@
-<h1>Affiliate Portal Launching Soon</h1>
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curated Tech & Studio Gear | Recommended Resources</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    h1, h2, h3, .font-heading { font-family: 'Space Grotesk', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-200 antialiased min-h-screen selection:bg-cyan-500 selection:text-black">
+
+  <!-- FTC Compliance Disclosure Bar (Required by Affiliate Programs) -->
+  <aside class="bg-slate-900 border-b border-slate-800 py-2.5 px-4 text-center text-xs text-slate-400">
+    <div class="max-w-5xl mx-auto flex items-center justify-center gap-2">
+      <i data-lucide="info" class="w-3.5 h-3.5 text-cyan-400 shrink-0"></i>
+      <span><strong>Transparency Disclosure:</strong> When you purchase through our links, we may earn an affiliate commission at no additional cost to you.</span>
+    </div>
+  </aside>
+
+  <!-- Hero Section -->
+  <header class="py-16 px-6 text-center max-w-4xl mx-auto">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-mono mb-4">
+      <i data-lucide="check-circle-2" class="w-3.5 h-3.5"></i>
+      <span>Curated & Battle-Tested Toolkit</span>
+    </div>
+    <h1 class="text-3xl sm:text-5xl font-bold text-white font-heading tracking-tight mb-4">
+      Professional Tools, Hardware & Software
+    </h1>
+    <p class="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto">
+      Direct access to industry-standard developer platforms, production audio hardware, and digital infrastructure verified for real-world production.
+    </p>
+  </header>
+
+  <!-- Category Filter / Badges -->
+  <div class="max-w-6xl mx-auto px-6 mb-8 flex flex-wrap items-center justify-center gap-3 text-xs font-medium">
+    <span class="px-4 py-1.5 rounded-full bg-cyan-500 text-slate-950 font-semibold cursor-pointer">All Selections</span>
+    <span class="px-4 py-1.5 rounded-full bg-slate-900 text-slate-300 border border-slate-800 hover:border-slate-700 cursor-pointer">Developer Tools</span>
+    <span class="px-4 py-1.5 rounded-full bg-slate-900 text-slate-300 border border-slate-800 hover:border-slate-700 cursor-pointer">Audio & Studio Gear</span>
+    <span class="px-4 py-1.5 rounded-full bg-slate-900 text-slate-300 border border-slate-800 hover:border-slate-700 cursor-pointer">Cloud Infrastructure</span>
+  </div>
+
+  <!-- Product / Deals Grid -->
+  <main class="max-w-6xl mx-auto px-6 pb-20">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Product Card 1 -->
+      <div class="flex flex-col justify-between bg-slate-900/90 border border-slate-800 rounded-2xl p-6 hover:border-cyan-500/50 transition-all hover:-translate-y-1 shadow-lg">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-2.5 py-0.5 rounded text-[11px] font-mono font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+              Developer Tool
+            </span>
+            <span class="text-xs text-slate-500 font-mono">Cloud Hosting</span>
+          </div>
+          <h2 class="text-xl font-bold text-white font-heading mb-2">Cloudflare Enterprise Edge</h2>
+          <p class="text-slate-400 text-sm leading-relaxed mb-6">
+            Global Anycast CDN, edge computing with Workers, and serverless DDoS mitigation built for production web applications.
+          </p>
+        </div>
+        <div class="pt-4 border-t border-slate-800/80">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs text-slate-400">Starting at</span>
+            <span class="text-lg font-bold text-white font-heading">Free / $20/mo</span>
+          </div>
+          <!-- REPLACE href WITH YOUR AFFILIATE LINK -->
+          <a href="https://example.com/your-affiliate-link-1" target="_blank" rel="noopener noreferrer nofollow" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold text-sm transition-all shadow-md">
+            <span>Get Started</span>
+            <i data-lucide="external-link" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Product Card 2 -->
+      <div class="flex flex-col justify-between bg-slate-900/90 border border-slate-800 rounded-2xl p-6 hover:border-violet-500/50 transition-all hover:-translate-y-1 shadow-lg">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-2.5 py-0.5 rounded text-[11px] font-mono font-semibold bg-violet-500/10 text-violet-400 border border-violet-500/20">
+              Studio Hardware
+            </span>
+            <span class="text-xs text-slate-500 font-mono">Audio Interface</span>
+          </div>
+          <h2 class="text-xl font-bold text-white font-heading mb-2">Focusrite Clarett+ Series</h2>
+          <p class="text-slate-400 text-sm leading-relaxed mb-6">
+            Pristine studio conversion, low-noise preamps, and optical ADAT expansion for multi-track acoustic capture.
+          </p>
+        </div>
+        <div class="pt-4 border-t border-slate-800/80">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs text-slate-400">Market Price</span>
+            <span class="text-lg font-bold text-white font-heading">$499.00</span>
+          </div>
+          <!-- REPLACE href WITH YOUR AFFILIATE LINK -->
+          <a href="https://example.com/your-affiliate-link-2" target="_blank" rel="noopener noreferrer nofollow" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-violet-500 hover:bg-violet-400 text-white font-semibold text-sm transition-all shadow-md">
+            <span>View Deal on Vendor</span>
+            <i data-lucide="external-link" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Product Card 3 -->
+      <div class="flex flex-col justify-between bg-slate-900/90 border border-slate-800 rounded-2xl p-6 hover:border-amber-500/50 transition-all hover:-translate-y-1 shadow-lg">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-2.5 py-0.5 rounded text-[11px] font-mono font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20">
+              Audio Software
+            </span>
+            <span class="text-xs text-slate-500 font-mono">DSP Suite</span>
+          </div>
+          <h2 class="text-xl font-bold text-white font-heading mb-2">iZotope Ozone Advanced</h2>
+          <p class="text-slate-400 text-sm leading-relaxed mb-6">
+            Industry-standard mastering software featuring AI-assisted balance, multi-band dynamics, and analog tape emulation.
+          </p>
+        </div>
+        <div class="pt-4 border-t border-slate-800/80">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs text-slate-400">Special Promo</span>
+            <span class="text-lg font-bold text-white font-heading">$299.00</span>
+          </div>
+          <!-- REPLACE href WITH YOUR AFFILIATE LINK -->
+          <a href="https://example.com/your-affiliate-link-3" target="_blank" rel="noopener noreferrer nofollow" class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold text-sm transition-all shadow-md">
+            <span>Check Discount</span>
+            <i data-lucide="external-link" class="w-4 h-4"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 bg-slate-950 py-8 text-xs text-slate-500 text-center">
+    <p>© 2026 Portal Deals. All trademarks and brand names belong to their respective owners.</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
